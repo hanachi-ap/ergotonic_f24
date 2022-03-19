@@ -78,13 +78,28 @@ Erogotonic F24は開発段階での仮称です。
 
 - 上記を左右について実施する
 
-- 中央プレートと拡張プレートをM2 3.5mmスペーサーを使って仮組みする
+- 中央プレートとジョイントプレートをM2 3.5mmスペーサーを使って仮組みする
 
-- 本体と中央プレートを結合してネジ止めする
+- 本体とジョイントプレートを結合してネジ止めする
 
 
-組み立ては画像を撮影して後日アップします
+下記の写真を参考にして下さい
 
+
+[<img src="fig/fig01.jpg" alt="fig01" title="fig/fig01.jpg" width=600>](fig/fig01.jpg)
+
+[<img src="fig/fig02.jpg" alt="fig02" title="fig/fig02.jpg" width=600>](fig/fig02.jpg)
+  
+[<img src="fig/fig03.jpg" alt="fig03" title="fig/fig03.jpg" width=600>](fig/fig03.jpg)
+  
+[<img src="fig/fig04.jpg" alt="fig04" title="fig/fig04.jpg" width=600>](fig/fig04.jpg)
+  
+[<img src="fig/fig05.jpg" alt="fig05" title="fig/fig05.jpg" width=600>](fig/fig05.jpg)
+  
+[<img src="fig/fig06.jpg" alt="fig06" title="fig/fig06.jpg" width=600>](fig/fig06.jpg)
+  
+[<img src="fig/fig07.jpg" alt="fig07" title="fig/fig07.jpg" width=600>](fig/fig07.jpg)
+  
 
 # Known issues
 
