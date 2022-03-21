@@ -1,10 +1,10 @@
 -- Ergotonic F24（仮称)の初期リリース(基板リビジョン P01)向けの情報 --
 
-# Ergotonic F24
+# Ergotonic F-24
 
 
 
-Ergotonic F24(歌唱mは、[Ergotonic 48 Spilit of the Willow](https://github.com/hanachi-ap/ergotonic49_docs)の特徴をそのままに、分離変形機能を追加した自作向けメカニカルキーボードです。
+Ergotonic F-24(仮称)、[Ergotonic 48 Spilit of the Willow](https://github.com/hanachi-ap/ergotonic49_docs)の特徴をそのままに、分離変形機能を追加した自作向けメカニカルキーボードです。
 
 変形ギミックが特徴的なキーボードですが、その変形機構は[PANGAEA Keyboard](https://github.com/e3w2q/Pangaea-keyboard)が発想の源となっています。
 
@@ -13,7 +13,7 @@ Ergotonic F24(歌唱mは、[Ergotonic 48 Spilit of the Willow](https://github.co
 変形機構の利用を快諾していただいたPANGAEAキーボードの開発陣に謝意を送ります。
 
 
-## Ergotonic F24の基本スペック
+## Ergotonic F-24の基本スペック
   - Willow配列、48キー、数字行レス
   - 一体型 / 分離型 兼用
   - 変形ギミック(後述)
@@ -45,7 +45,7 @@ Ergotonic F24(歌唱mは、[Ergotonic 48 Spilit of the Willow](https://github.co
 - [ビルドガイド 初期暫定版](docs/index.md)
 ### ベースとなったプロダクト
   - Ergotonic49 
-    - Ergotonic F24と同じ開発者による現行モデル
+    - Ergotonic F-24と同じ開発者による現行モデル
     -  ドキュメント https://hanachi-ap.github.io/ergotonic49_docs/
     -  紹介記事 https://coal.hatenablog.com/entry/2021/11/01/230327
   - PANGAEA Keyboard

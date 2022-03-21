@@ -1,6 +1,6 @@
-# Ergotonic F24 ドキュメント
+# Ergotonic F-24 ドキュメント
 
-Erogotonic F24は開発段階での仮称です。
+Erogotonic F-24は開発段階での仮称です。
 
 
 ## ビルドガイド(暫定版)

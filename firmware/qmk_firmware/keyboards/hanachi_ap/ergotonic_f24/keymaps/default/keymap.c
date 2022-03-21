@@ -73,8 +73,8 @@ void keyboard_post_init_user(void) {
 const uint8_t rt_matrix[][4][2] = {
     {{3,1},{3,2}},
     {{0,6},{1,6}},
-    {{0,7},{1,7}},
-    {{3,11},{3,12}},
+    {{7,4},{7,5}},
+    {{4,0},{5,0}},
 };
 
 bool encoder_update_user(uint8_t index, bool clockwise) {
@@ -86,6 +86,7 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
     uint8_t  layer   = layer_switch_get_layer(key);
     uint16_t keycode = keymap_key_to_keycode(layer, key);
     tap_code16(keycode);
+ 
 #ifdef CONSOLE_ENABLE    
     uprintf("index=%d  cw=%d  keycode=%d kr=%d, kc=%d\n", index, clockwise,keycode, key.row, key.col);
 #endif
