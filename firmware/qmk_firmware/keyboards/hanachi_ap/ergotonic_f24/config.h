@@ -74,13 +74,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /*== all animations enable ==*/
 //#    define RGBLIGHT_ANIMATIONS
 /*== or choose animations ==*/
-#    define RGBLIGHT_EFFECT_BREATHING
+//#    define RGBLIGHT_EFFECT_BREATHING
 #    define RGBLIGHT_EFFECT_RAINBOW_MOOD
 #    define RGBLIGHT_EFFECT_RAINBOW_SWIRL
 //#    define RGBLIGHT_EFFECT_SNAKE
 //#    define RGBLIGHT_EFFECT_KNIGHT
 #    define RGBLIGHT_EFFECT_CHRISTMAS
-#    define RGBLIGHT_EFFECT_STATIC_GRADIENT
+//#    define RGBLIGHT_EFFECT_STATIC_GRADIENT
 #    define RGBLIGHT_EFFECT_RGB_TEST
 
 //#    define RGBLIGHT_EFFECT_ALTERNATING
@@ -152,3 +152,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* Bootmagic Lite key configuration */
 //#define BOOTMAGIC_LITE_ROW 0
 //#define BOOTMAGIC_LITE_COLUMN 0
+
+// #define ENCODERS_PAD_A { B6, F4 , F4, B6 }
+// #define ENCODERS_PAD_B { B5, F5 , F5, B5 }
+// #define ENCODER_RESOLUTIONS { 4, 4, 4, 4 }
+#define ENCODERS_PAD_A { B6, F4  }
+#define ENCODERS_PAD_B { B5, F5  }
+#define ENCODER_RESOLUTIONS { 4, 4 }

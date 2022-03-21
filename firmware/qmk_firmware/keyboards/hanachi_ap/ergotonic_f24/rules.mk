@@ -23,4 +23,5 @@ AUDIO_ENABLE = no           # Audio output
 
 SPLIT_KEYBOARD = yes
 LTO_ENABLE = yes
+ENCODER_ENABLE = yes
 
