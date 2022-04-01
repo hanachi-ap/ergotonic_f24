@@ -36,7 +36,7 @@ Ergotonic F-24(仮称)、[Ergotonic 48 Spilit of the Willow](https://github.com/
      -  普通にスプリットキーボード。Willow64の正当な後継の座を受け継げるか!?
   
 ### プロトタイプの試み
-  - TRRSコードに代えて、ZHコネクタによる直接接続
+  - TRRSコードに代えて SHHコネクタによる直接接続
   - アルミ素材のPCBプレート
   - 拡張機能のためのコネクタ(未テスト、実装バグあり)
 
