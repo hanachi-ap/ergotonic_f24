@@ -28,18 +28,20 @@
  */
 
 #define LAYOUT( \
-    L01, L05, L08, L11, L15, L19, RE2A,  RE3A,R27, R31, R35, R39, R42, R45, \
-    L02, L06, L09, L12, L16, L20, RE2B,  RE3B,R28, R32, R36, R40, R43, R46, \
+    L01, L05, L08, L11, L15, L19,             R27, R31, R35, R39, R42, R45, \
+    L02, L06, L09, L12, L16, L20,             R28, R32, R36, R40, R43, R46, \
     L03, L07, L10, L13, L17, L21, L23,   R25, R29, R33, R37, R41, R44, R47, \
-    L04, RE1A,RE1B,L14, L18, L22, L24,   R26, R30, R34, R38,RE4A,RE4B, R48  \
+    L04,           L14, L18, L22, L24,   R26, R30, R34, R38,           R48, \
+    RE1A, RE1B, RE2A, RE2B, RE2Push,        RE3A, RE3B, RE3Push, RE4A, RE4B \
     ) \
     { \
-        { L01, L05, L08, L11, L15, L19, RE2A  }, \
-        { L02, L06, L09, L12, L16, L20, RE2B  }, \
-        { L03, L07, L10, L13, L17, L21, L23  }, \
-        { L04, RE1A,RE1B,L14, L18, L22, L24  }, \
-        { RE3A,R27, R31, R35, R39, R42, R45  }, \
-        { RE3B,R28, R32, R36, R40, R43, R46  }, \
-        { R25, R29, R33 ,R37, R41, R44, R47  }, \
-        { R26, R30, R34, R38,RE4A,RE4B, R48  }  \
+        { L01, L05, L08, L11, L15, L19, RE2A , RE2Push }, \
+        { L02, L06, L09, L12, L16, L20, RE2B , KC_NO }, \
+        { L03, L07, L10, L13, L17, L21, L23  , KC_NO}, \
+        { L04, RE1A,RE1B,L14, L18, L22, L24  , KC_NO}, \
+        { RE3A,R27, R31, R35, R39, R42, R45  , RE3Push}, \
+        { RE3B,R28, R32, R36, R40, R43, R46  , KC_NO}, \
+        { R25, R29, R33 ,R37, R41, R44, R47  , KC_NO}, \
+        { R26, R30, R34, R38,RE4A,RE4B, R48  , KC_NO}  \
     }
+

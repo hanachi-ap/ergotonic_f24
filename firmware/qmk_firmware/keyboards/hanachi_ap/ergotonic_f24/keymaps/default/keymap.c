@@ -33,30 +33,40 @@ enum custom_keycodes {
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /* Base */
-    [_BASE] = LAYOUT(
-	KC_TAB,	   KC_Q,   KC_W,   KC_E,   KC_R,   KC_T,  KC_C,     KC_E,  KC_Y,   KC_U,   KC_I,   KC_O,   KC_P,     KC_LBRC,
-	KC_LCTL,   KC_A,   KC_S,   KC_D,   KC_F,   KC_G,  KC_D,     KC_F,  KC_H,   KC_J,   KC_K,   KC_L,   KC_SCLN,  KC_QUOT,
-	KC_LSFT,   KC_Z,   KC_X,   KC_C,   KC_V,   KC_B,  KC_DEL,   KC_LGUI, KC_N,   KC_M,   KC_COMM,KC_DOT, KC_SLSH, KC_SLSH,
-    KC_A,      KC_A,   KC_B,   KC_LEFT,   KC_RIGHT, KC_SPC,  KC_LCTL, KC_ENT,  KC_BSPC, KC_DOWN,	KC_UP, KC_G, KC_H, KC_Z
+    [_BASE] = LAYOUT( 
+	KC_ESC,	   KC_Q,   KC_W,   KC_E,   KC_R,   KC_T,                     KC_Y,   KC_U,   KC_I,   KC_O,   KC_P,     KC_LBRC,
+	KC_TAB,    KC_A,   KC_S,   KC_D,   KC_F,   KC_G,                     KC_H,   KC_J,   KC_K,   KC_L,   KC_SCLN,  KC_QUOT,
+	KC_LSFT,   KC_Z,   KC_X,   KC_C,   KC_V,    KC_B,  KC_DEL,   KC_LGUI,KC_N,   KC_M,   KC_COMM,KC_DOT, KC_SLSH,  KC_SLSH,
+    KC_LALT,                   KC_LEFT,KC_RIGHT,KC_SPC,KC_LCTL,  KC_BSPC,KC_ENT, KC_DOWN, KC_UP,                    KC_ENT,
+     KC_A, KC_B,                         KC_D, KC_E, KC_F,                               KC_G, KC_H, KC_I,                  KC_J, KC_K 
     )    ,
+
+
         [_L1] = LAYOUT(
-	KC_TAB,	   KC_Q,   KC_W,   KC_E,   KC_R,   KC_T,  KC_C,     KC_E,  KC_Y,   KC_U,   KC_I,   KC_O,   KC_P,     KC_LBRC,
-	KC_LCTL,   KC_A,   KC_S,   KC_D,   KC_F,   KC_G,  KC_D,     KC_F,  KC_H,   KC_J,   KC_K,   KC_L,   KC_SCLN,  KC_QUOT,
-	KC_LSFT,   KC_Z,   KC_X,   KC_C,   KC_V,   KC_B,  KC_DEL,   KC_LGUI, KC_N,   KC_M,   KC_COMM,KC_DOT, KC_SLSH, KC_SLSH,
-    KC_Z,      KC_A,   KC_B,   KC_LEFT,   KC_RIGHT, KC_SPC,  KC_LCTL, KC_ENT,  KC_BSPC, KC_DOWN,	KC_UP, KC_G, KC_H, KC_Z
-    )   ,
+	KC_ESC,	   KC_Q,   KC_W,   KC_E,   KC_R,   KC_T,                     KC_Y,   KC_U,   KC_I,   KC_O,   KC_P,     KC_LBRC,
+	KC_TAB,    KC_A,   KC_S,   KC_D,   KC_F,   KC_G,                     KC_H,   KC_J,   KC_K,   KC_L,   KC_SCLN,  KC_QUOT,
+	KC_LSFT,   KC_Z,   KC_X,   KC_C,   KC_V,   KC_B,  KC_DEL,    KC_LGUI,KC_N,   KC_M,   KC_COMM,KC_DOT, KC_SLSH, KC_SLSH,
+    KC_LGUI,                   KC_LEFT,KC_RIGHT,KC_SPC,KC_LCTL,  KC_BSPC,KC_ENT, KC_DOWN, KC_UP,                      KC_ENT,
+     KC_A, KC_B,  KC_D, KC_E, KC_F,               KC_G, KC_H, KC_I, KC_J, KC_K 
+    )    ,
+
+
         [_L2] = LAYOUT(
-	KC_TAB,	   KC_Q,   KC_W,   KC_E,   KC_R,   KC_T,  KC_C,     KC_E,  KC_Y,   KC_U,   KC_I,   KC_O,   KC_P,     KC_LBRC,
-	KC_LCTL,   KC_A,   KC_S,   KC_D,   KC_F,   KC_G,  KC_D,     KC_F,  KC_H,   KC_J,   KC_K,   KC_L,   KC_SCLN,  KC_QUOT,
-	KC_LSFT,   KC_Z,   KC_X,   KC_C,   KC_V,   KC_B,  KC_DEL,   KC_LGUI, KC_N,   KC_M,   KC_COMM,KC_DOT, KC_SLSH, KC_SLSH,
-    KC_Z,      KC_A,   KC_B,   KC_LEFT,   KC_RIGHT, KC_SPC,  KC_LCTL, KC_ENT,  KC_BSPC, KC_DOWN,	KC_UP, KC_G, KC_H, KC_Z
-    )   ,
+	KC_ESC,	   KC_Q,   KC_W,   KC_E,   KC_R,   KC_T,                     KC_Y,   KC_U,   KC_I,   KC_O,   KC_P,     KC_LBRC,
+	KC_TAB,    KC_A,   KC_S,   KC_D,   KC_F,   KC_G,                     KC_H,   KC_J,   KC_K,   KC_L,   KC_SCLN,  KC_QUOT,
+	KC_LSFT,   KC_Z,   KC_X,   KC_C,   KC_V,   KC_B,  KC_DEL,    KC_LGUI,KC_N,   KC_M,   KC_COMM,KC_DOT, KC_SLSH, KC_SLSH,
+    KC_LGUI,                   KC_LEFT,KC_RIGHT,KC_SPC,KC_LCTL,  KC_BSPC,KC_ENT, KC_DOWN, KC_UP,                      KC_ENT,
+     KC_A, KC_B,  KC_D, KC_E, KC_F,               KC_G, KC_H, KC_I, KC_J, KC_K 
+    )    ,
+
+
         [_L3] = LAYOUT(
-	KC_TAB,	   KC_Q,   KC_W,   KC_E,   KC_R,   KC_T,  KC_C,     KC_E,  KC_Y,   KC_U,   KC_I,   KC_O,   KC_P,     KC_LBRC,
-	KC_LCTL,   KC_A,   KC_S,   KC_D,   KC_F,   KC_G,  KC_D,     KC_F,  KC_H,   KC_J,   KC_K,   KC_L,   KC_SCLN,  KC_QUOT,
-	KC_LSFT,   KC_Z,   KC_X,   KC_C,   KC_V,   KC_B,  KC_DEL,   KC_LGUI, KC_N,   KC_M,   KC_COMM,KC_DOT, KC_SLSH, KC_SLSH,
-    KC_Z,      KC_A,   KC_B,   KC_LEFT,   KC_RIGHT, KC_SPC,  KC_LCTL, KC_ENT,  KC_BSPC, KC_DOWN,	KC_UP, KC_G, KC_H, KC_Z
-    )
+		KC_ESC,	   KC_Q,   KC_W,   KC_E,   KC_R,   KC_T,                     KC_Y,   KC_U,   KC_I,   KC_O,   KC_P,     KC_LBRC,
+	KC_TAB,    KC_A,   KC_S,   KC_D,   KC_F,   KC_G,                     KC_H,   KC_J,   KC_K,   KC_L,   KC_SCLN,  KC_QUOT,
+	KC_LSFT,   KC_Z,   KC_X,   KC_C,   KC_V,   KC_B,  KC_DEL,    KC_LGUI,KC_N,   KC_M,   KC_COMM,KC_DOT, KC_SLSH, KC_SLSH,
+    KC_LGUI,                   KC_LEFT,KC_RIGHT,KC_SPC,KC_LCTL,  KC_BSPC,KC_ENT, KC_DOWN, KC_UP,                      KC_ENT,
+     KC_A, KC_B,  KC_D, KC_E, KC_F,               KC_G, KC_H, KC_I, KC_J, KC_K 
+    )    
 
 
 };
@@ -70,6 +80,7 @@ void keyboard_post_init_user(void) {
 #endif
 }
 
+#ifdef ENCODER_ENABLE
 const uint8_t rt_matrix[][4][2] = {
     {{3,1},{3,2}},
     {{0,6},{1,6}},
@@ -79,16 +90,15 @@ const uint8_t rt_matrix[][4][2] = {
 
 bool encoder_update_user(uint8_t index, bool clockwise) {
     keypos_t key;
+
     int      cw = 0;
     if (clockwise) cw = 1;
     key.row          = rt_matrix[index][cw][0];
     key.col          = rt_matrix[index][cw][1];
-    uint8_t  layer   = layer_switch_get_layer(key);
-    uint16_t keycode = keymap_key_to_keycode(layer, key);
-    tap_code16(keycode);
- 
-#ifdef CONSOLE_ENABLE    
-    uprintf("index=%d  cw=%d  keycode=%d kr=%d, kc=%d\n", index, clockwise,keycode, key.row, key.col);
-#endif
+
+    action_exec((keyevent_t){.key = key, .pressed = true, .time = (timer_read() | 1)});
+    action_exec((keyevent_t){.key = key, .pressed = false, .time = (timer_read() | 1)});
+
     return false;
 }
+#endif
