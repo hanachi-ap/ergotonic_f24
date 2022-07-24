@@ -10,8 +10,8 @@ PCBの表側からProMicroを取り付けます。
 ## ファームウェアを書き込む
 ----
 2022年7月24日の時点で、Remapの公式登録が未完了です。
-こちらから[ファームウェアをダウンロード](../firmware/binary/han
-)してQMK Toolboxで書き込みしてください。
+こちらから[ファームウェアをダウンロード](../firmware/binary/hanachi_ap_ergotonic_f24_default.hex)
+してQMK Toolboxで書き込みしてください。
 
 [JSONファイルをダウンロード](../via/ergotonic_f24_via.json)していただければRemapやVIAは利用できます。
 
