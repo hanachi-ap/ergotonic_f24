@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "willow")(type "KiCad")(uri "${LOCAL_LIB}/willow/footprint.pretty")(options "")(descr ""))
+)

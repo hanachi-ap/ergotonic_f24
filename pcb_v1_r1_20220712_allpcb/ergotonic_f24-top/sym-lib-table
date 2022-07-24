@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "kbd")(type "Legacy")(uri "${KIPRJMOD}/kbd/kicad-symbols/kbd.lib")(options "")(descr ""))
+  (lib (name "e3w2q")(type "Legacy")(uri "${KIPRJMOD}/e3w2q/symbol/Connector-ML.lib")(options "")(descr ""))
+  (lib (name "willow")(type "KiCad")(uri "${KIPRJMOD}/willow/symbol/willow.kicad_sym")(options "")(descr ""))
+)

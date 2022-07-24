@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name "kbd")(type "KiCad")(uri "${KIPRJMOD}/kbd/kicad-footprints/kbd.pretty")(options "")(descr ""))
+  (lib (name "e3w2q")(type "KiCad")(uri "${KIPRJMOD}/e3w2q/footprint.pretty")(options "")(descr ""))
+  (lib (name "willow")(type "KiCad")(uri "${KIPRJMOD}/willow/footprint.pretty")(options "")(descr ""))
+)
