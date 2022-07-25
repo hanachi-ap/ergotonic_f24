@@ -34,7 +34,9 @@
 
 - トッププレートの表側から、写真の位置にスペーサー(長)を配置し、PCBの裏側からネジ止めします
   <img src="img/fig5_7.jpg" alt="img" title="img/fig5_4.jpg" width=500>
-    <img src="img/fig5_8.jpg" alt="img" title="img/fig5_4.jpg" width=500>
+  
+  <img src="img/fig5_8.jpg" alt="img" title="img/fig5_4.jpg" width=500> 
+
 - 保護プレートを重ねて上から3ヶ所ネジ止めします。
   <img src="img/fig5_9.jpg" alt="img" title="img/fig5_4.jpg" width=500>
 
@@ -50,18 +52,23 @@
 # 合体! の方法
 
 - 写真2箇所の部分のスペーサーを スペーサ(長)からスペーサー(短)に変更し、ネジも ネジ(短)の代わりにネジ(長)を使い軽く止めます。
+  
   <img src="img/fig5_11.jpg" alt="img" title="img/fig5_4.jpg" width=500>
 
 - 横から見ると写真のように スペーサー(短)が中央部に浮いている状態になります。
+  
   <img src="img/fig5_12.jpg" alt="img" title="img/fig5_4.jpg" width=500>
 
 - ジョイントプレートも、スペーサー(短)とネジ(長)を使い、図のように組み立てます
+  
   <img src="img/fig5_13.jpg" alt="img" title="img/fig5_4.jpg" width=500>
 
 - ジョイントパーツのスリット部分を、先程のスペーサー(短)の隙間に通します。
+  
   <img src="img/fig5_14.jpg" alt="img" title="img/fig5_4.jpg" width=500>
 
 - コネクタ付きコード4Pをソケットに挿して左右を接続します。
+  
   <img src="img/fig5_15.jpg" alt="img" title="img/fig5_4.jpg" width=500>
 
 - ネジの締付けを調整しつつ好みの位置で固定します。
