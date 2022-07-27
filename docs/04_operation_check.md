@@ -23,7 +23,7 @@ PCBの表側からProMicroを取り付けます。
 
 - ChromeもしくはEdge ブラウザで次のURLへアクセスします。
 
-   [https://remap-keys.app/catalog/XRdgiLWthCPiTAo1Nvac/firmwar](https://remap-keys.app/catalog/XRdgiLWthCPiTAo1Nvac/firmwar)
+   [https://remap-keys.app/catalog/0vUSlf2gKOlRn1JkQjPH/firmware](hhttps://remap-keys.app/catalog/0vUSlf2gKOlRn1JkQjPH/firmware)
 
 -  書き込みを行うファームウェア(ここでは ergotonic_f24_default.hex )の FLUSH 
    をクリックし、表示される操作方法(英語表記です)を確認し、さらにFLUSHを
