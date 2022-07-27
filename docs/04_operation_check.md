@@ -8,14 +8,6 @@ PCBの表側からProMicroを取り付けます。
 
 
 ## ファームウェアを書き込む
-----
-2022年7月24日の時点で、Remapの公式登録が未完了です。
-こちらから[ファームウェアをダウンロード](../firmware/binary/hanachi_ap_ergotonic_f24_default.hex)
-してQMK Toolboxで書き込みしてください。
-
-[JSONファイルをダウンロード](../via/ergotonic_f24_via.json)していただければRemapやVIAは利用できます。
-
-----
 
 下記の操作を左右2つ分のProMicroに対して行います。この段階ではまだTRRSケーブルやコネクタ付きコードで左右を連結しない状態にしておいてください。
 
@@ -51,7 +43,7 @@ TIPS:
 内容をよく確認の上で行うようにしてください。
 
 - QMK Toolboxを利用する場合はファームウェアは下記から取得してください。
-   [ergotonic_f24_default.hex](lib/ergotonic_f24_default.hex)  
+   [ergotonic_f24_default.hex](../firmware/binary/hanachi_ap_ergotonic_f24_default.hex) してください。
 
 
 ## 左右をケーブルで結んで確認
