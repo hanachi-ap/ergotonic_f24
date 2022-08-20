@@ -83,7 +83,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "gerber_top/")
+      (outputdirectory "../gerber/ef24_v1r3_gerber_top/")
     )
   )
 
