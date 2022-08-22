@@ -1,6 +1,6 @@
-[<<Prev: トラブルシュート](07_troubleshoot.md)  
+ [Index](index.md)
 
-# 8. 参考情報
+# 参考情報
 
 ## パーツショップ(日本)
 
@@ -8,7 +8,7 @@
 
 - 遊舎工房 [https://yushakobo.jp/](https://yushakobo.jp/)
 - TALP KEYBOARD [https://talpkeyboard.stores.jp/](https://talpkeyboard.stores.jp/)
-- ゆかりキーボードファクトリ [https://eucalyn.shop/](https://eucalyn.shop/)
+- LiLaKEY [https://lilakey.com/](https://lilakey.com/)
 - 秋月電子通商 [https://akizukidenshi.com/catalog/default.aspx](https://akizukidenshi.com/catalog/default.aspx)
   
 ## はんだ付け技能

@@ -13,11 +13,8 @@ Ergotonic F24のビルドガイドです。
 5. [組み立て](05_assembly.md)
 6. [最後のステップ](06_final_step.md)
 7. [トラブルシュート](07_troubleshoot.md)
-8. [参考情報](08_reference.md)
 
-- [Ergotonic F24の使い方](10_usage.md)
-  
-- [キーボードをカスタマイズする](09_customize.md)
-  
-
+- [Ergotonic F24の使い方、キーマップのカスタマイズ方法](10_usage.md)
+ 
+- [参考情報(外部リンク)](08_reference.md)
 

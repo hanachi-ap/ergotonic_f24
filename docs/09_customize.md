@@ -1,10 +1,14 @@
-# キーボードをカスタマイズする
+ [Index](index.md)
+ 
+ # キーボードをカスタマイズする
 
 ##  標準キーマップ
+
+
 標準ファームウェアでは0から4までの5つのレイヤーが定義されています。
 
  - レイヤー0  : 基本のアルファベット
- - レイヤー1  : 未定義
+ - レイヤー1  : 未定義 
  - レイヤー2  : 数字、記号
  - レイヤー3  : カーソル移動、ファンクションキー
  - レイヤー4  : LED操作などキーボードシステム設定
@@ -32,17 +36,12 @@ Ergotonic49をカスタマイズする方法は、大きく次の2つの方法�
 
 ## 2. QMK Firmwareを編集する
 
-Ergotonic49は[QMK Firmware](https://docs.qmk.fm/)というオープンソースとして開発されているファームウェアを利用しいています。
-
-ロータリーエンコーダーの動作やCAPS LOCKやNUM LOCKの状態でLEDの表示を変更するような独自の動きはQMKの中で定義しています。
-
+Ergotonic F24は[QMK Firmware](https://docs.qmk.fm/)というオープンソースとして開発されているファームウェアを利用しいています。
 
 QMKにはとても沢山の機能が用意されていて、より自由な設定を行うことができます。
 しかしそのためにはプログラミング言語(C言語)やPC上での黒い画面(コンソール)でコマンドを使ったコンパイル操作を行う必要があります。
 
-Ergotonic49のファームウェアは [ここ](https://github.com/hanachi-ap/qmk_firmware/tree/ergotonic49/keyboards/ergotonic49)から参照できます。
-
-注目ポイントは [このファイル](https://github.com/hanachi-ap/qmk_firmware/blob/ergotonic49/keyboards/ergotonic49/keymaps/default/keymap.c)です。
+Ergotonic F24のファームウェアは [ここ](https://github.com/hanachi-ap/ergotonic_f24)から参照できます。
 もしこれを見て行けそうだ! と感じたらぜひQMK Firmwareのカスタマイズに挑戦してみて下さい。
 
 
