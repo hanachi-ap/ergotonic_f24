@@ -19,6 +19,8 @@
 #ifdef CONSOLE_ENABLE
   #include <print.h>
 #endif
+#include "via.h"
+
 // Defines names for use in layer keycodes and the keymap
 enum layer_names {
     _BASE,
@@ -29,16 +31,18 @@ enum layer_names {
 
 // Defines the keycodes used by our macros in process_record_user
 enum custom_keycodes {
-    QMKBEST = SAFE_RANGE,
-    QMKURL,
-    CPI_SW,
-    SCRL_SW,
-    ROT_R15,
-    ROT_L15,
-    SCRL_MO,
-    SCRL_TO,
-    SCRL_IN
+    QMKBEST = SAFE_RANGE
+
 };
+
+#define CPI_SW USER00
+#define SCRL_SW USER01
+#define ROT_R15 USER02
+#define ROT_L15 USER03
+#define SCRL_MO USER04
+#define SCRL_TO USER05
+#define SCRL_IN USER06
+
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /* Base */

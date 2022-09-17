@@ -1,9 +1,19 @@
 {
-    "name": "Ergotonic_F24",
+    "name": "Ergotonic F24",
     "vendorId": "0xBB01",
     "productId": "0x0012",
     "lighting": "qmk_rgblight",
     "matrix": { "rows": 8, "cols": 8 },
+    "customKeycodes": [
+      {"name": "CPI_SW", "title": "Changes the CPI of the trackball", "shortName": "CPI_SW"},
+      {"name": "SCRL_SW", "title": "Changes the sensitivity of the sensor in scroll mode", "shortName": "SCRL_SW"},
+      {"name": "ROT_R15", "title": "Turns the Y axis of the mouse sensor 15 degrees clockwise", "shortName": "ROT_R15"},
+      {"name": "ROT_L15", "title": "Turns the Y axis of the mouse sensor 15 degrees counterclockwise", "shortName": "ROT_L15"},
+      {"name": "SCRL_MO", "title": "Enables scroll mode for as long as it is pressed", "shortName": "SCRL_MO"},
+      {"name": "SCRL_TO", "title": "Toggles between scroll mode and mouse mode each time it is pressed", "shortName": "SCRL_TO"},
+      {"name": "SCRL_IN", "title": "Inverts the scroll direction", "shortName": "SCRL_IN"}
+    ],
+      
     "layouts": {
 
       "keymap": 
