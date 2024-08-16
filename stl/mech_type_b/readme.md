@@ -1,4 +1,4 @@
-# Parts to convert Ergotronic F24 to variable wing - Type B
+# Parts to convert Ergotronic F24 to variable-sweep wing - Type B
 
 Wing can be folded
 
